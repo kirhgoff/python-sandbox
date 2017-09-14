@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 
 from zipfile import ZipFile
-import sys
+
 import file_traverse
-from csvdump import CsvData
+import sys
+
+from tools.csvdump import CsvData
 
 
 def process_zip_file(filepath):
